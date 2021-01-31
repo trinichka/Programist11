@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300italic,regular,italic,700,700italic&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic,500italic,600italic,700italic&display=swap&subset=cyrillic-ext");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+main {
+	font-family: "lato", sans-serif;
+	color: slategray;
+}
+p {
+	margin-top: 4px; /* Отступ сверху */
+	margin-bottom: 4px; /* Отступ снизу */
+}
+.text {
+	font-weight: normal;
+	word-spacing: 2px;
+	line-height: 200%;
+}
+h1 {
+	font-size: 45px;
+	text-shadow: 3px 3px 3px chartreuse, 10px 10px 10px coral;
+
+	letter-spacing: 8px;
+	word-spacing: 20px;
+	text-indent: 60px;
+	font-style: italic;
+	text-transform: uppercase; /* верхний регистр */
+}
+h2 {
+	font-size: 30px;
+	text-align: right;
+	text-decoration: overline;
+	text-shadow: 5px 10px 15px rgba(241, 142, 12, 0.705);
+	font-style: oblique;
+}
+.title {
+	font-weight: 800;
+	color: royalblue;
+	font-family: "lora", serif;
+}
+.title > span {
+	color: red;
+}
+.text2 {
+	text-indent: 50px;
+	line-height: 150%;
+	text-shadow: 1px 1px 10px rgba(34, 47, 233, 0.438);
+}
+
+.text2 > mark {
+	text-decoration: underline;
+	font-style: italic;
+	text-align: justify;
+}
+.text3 {
+	text-indent: 50px;
+	line-height: 150%;
+	text-shadow: 1px 1px 10px rgba(3, 54, 43, 0.938);
+	letter-spacing: 8px;
+	word-spacing: 20px;
+}
+ul li {
+	margin: 5px 0px 0px 30px;
+	list-style: initial;
+}
+ul li span {
+	text-decoration: line-through;
+	text-shadow: 0px 1px 10px rgb(255, 0, 0);
+}
+.pic {
+	float: right; /* Обтекание картинки текстом справа */
+}
